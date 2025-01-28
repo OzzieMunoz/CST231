@@ -5,11 +5,11 @@
  * 1/24/2024
  */
 
-package lab1a;
+package wk01;
 
 import java.util.Scanner;
 
-public class Main {
+public class ArithMethods {
     public static void main(String [] args) {
         double number;
         Scanner scanner = new Scanner(System.in);

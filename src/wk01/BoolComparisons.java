@@ -7,11 +7,11 @@
  * Date: 1/24/2024
  */
 
-package lab1b;
+package wk01;
 
 import java.util.Random;
 
-public class Main {
+public class BoolComparisons {
     public static void main(String[] args) {
         int size = 10;
         Random r = new Random();
