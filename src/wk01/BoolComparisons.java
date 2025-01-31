@@ -1,6 +1,6 @@
 /*
  * Title: CST231-Lab1A
- * Abstract: This porogram will generate ten random integers, and then it will sort those integers and print them.
+ * Abstract: This program will generate ten random integers, and then it will sort those integers and print them.
  * Author: Ozzie Munoz, Jonathan Gastelum
  * Email: ozmunoz, jgastelum
  * Estimate: 1 hour
