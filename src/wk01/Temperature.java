@@ -18,7 +18,5 @@ public class Temperature {
                 ", the Celsius temperature is " + celsiusTemp);
         System.out.println("If the Celsius temperature is " + inputTemp +
                 ", the Fahrenheit temperature is " + fahrenheitTemp);
-
-        scanner.close();
     }
 }

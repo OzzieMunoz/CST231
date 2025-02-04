@@ -17,7 +17,5 @@ public class Length {
 
         int volume = length * length * length;
         System.out.println("With sides of " + length + ", a cube would have the volume of " + volume);
-
-        scanner.close();
     }
 }
