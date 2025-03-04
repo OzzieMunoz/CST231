@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class NoNo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        String s;
 
-        System.out.print("Stop? (yes/no) ");
-        String s = sc.nextLine();
-
-        while (s.equalsIgnoreCase("n") || s.equalsIgnoreCase("no") || s.equalsIgnoreCase("not")) {
+        do {
             System.out.print("Stop? (yes/no) ");
-            s = sc.nextLine();
-        }
+            s = sc.next();
+        } while (s.equalsIgnoreCase("n") ||
+                 s.equalsIgnoreCase("no") ||
+                 s.equalsIgnoreCase("not"));
 
         System.out.println("Done");
     }

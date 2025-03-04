@@ -11,7 +11,7 @@ public class LoopFlowcharts {
 
         for (int i = 0; i < n; i++) {
             if (Math.pow(i, 2) < n) {
-                System.out.print(Math.pow(i, 2) + " ");
+                System.out.print((int) Math.pow(i, 2) + " ");
             }
         }
     }
