@@ -8,10 +8,10 @@ public class Decompressor {
     public static void main(String[] args) throws IOException {
         Scanner in = new Scanner(System.in);
         String filename;
-       do {
-           System.out.print("Enter the name of a compressed file (.cmp extension): ");
-           filename = in.next();
-       } while(! filename.endsWith(".cmp"));
+        do {
+            System.out.print("Enter the name of a compressed file (.cmp extension): ");
+            filename = in.next();
+        } while(! filename.endsWith(".cmp"));
 
         FileReader fr = new FileReader(filename);
         Scanner inFile = new Scanner(fr);
